@@ -40,16 +40,14 @@ struct MaxHeap
     void SiftDown(int i)
     {
         int maxIndex = i;
-        if (LeftChild(i) < size+1) {
-            if (array[LeftChild(i)] > array[i]) maxIndex = LeftChild(i);
-            if (array[RightChild(i)] > array[maxIndex]) maxIndex = RightChild(i);
+            if ((array[LeftChild(i)] > array[maxIndex]) && (LeftChild(i) <= size)) maxIndex = LeftChild(i);
+            if ((array[RightChild(i)] > array[maxIndex]) && (RightChild(i) <= size)) maxIndex = RightChild(i);
             if (maxIndex != i) {
                 int help = array[i];
                 array[i] = array[maxIndex];
                 array[maxIndex] = help;
                 SiftDown(maxIndex);
             }
-        }
     }
 
     void Insert(int p)
