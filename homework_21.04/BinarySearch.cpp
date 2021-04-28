@@ -133,7 +133,7 @@ int main() {
                    {2, 4, 7, 10},
                    {3, 6, 8, 12}};
     cout << "Is there a number 10 in the matrix? " << binarySearchInMatrix(b, 10, 3, 3) << endl;
-    cout << "Square root of 167 is " << binarySquareRootSearch(167) << endl;
+    cout << "Square root of 13 is " << binarySquareRootSearch(13) << endl;
     cout << "The median of the matrix is " << binarySearchForMedianOfMatrix(c, 4, 4);
 
     return 0;
