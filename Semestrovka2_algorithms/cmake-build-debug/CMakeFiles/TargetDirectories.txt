@@ -1,0 +1,3 @@
+C:/Users/dinar/CLionProjects/Semestrovka2_algorithms/cmake-build-debug/CMakeFiles/Semestrovka2_algorithms.dir
+C:/Users/dinar/CLionProjects/Semestrovka2_algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dinar/CLionProjects/Semestrovka2_algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
