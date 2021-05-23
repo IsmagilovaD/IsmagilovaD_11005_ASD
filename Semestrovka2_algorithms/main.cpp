@@ -50,7 +50,7 @@ void mSort(int *arr, int *result, int l, int r) {
     merge(arr, result, l, m, r);
 }
 
-void *mergeSort(int *arr, int size) {
+void mergeSort(int *arr, int size) {
     int *result = new int[size];
     mSort(arr, result, 0, size - 1);
 }
